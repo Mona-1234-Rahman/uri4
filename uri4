@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    double n=3.14159,r,a;
+    scanf("%lf",&r);
+    a=n*r*r;
+    printf("a=%0.4lf",a);
+    return 0;
+}
